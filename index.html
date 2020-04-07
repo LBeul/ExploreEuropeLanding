@@ -10,24 +10,13 @@
     <title>Explore Europe</title>
   </head>
   <body class="bg-gray-200 font-sans flex flex-col items-center">
+    <!-- HEADER -->
     <header
       class="bg-blue-700 w-full px-4 py-3 flex justify-center border-b-4 border-yellow-500"
     >
       <div class="max-w-4xl w-full">
         <div class="flex items-center justify-between text-white">
           <div class="text-yellow-500 font-black text-xl">Explore Europe</div>
-          <button
-            type="button"
-            class="text-blue-300 hover:text-blue-200 sm:hidden"
-          >
-            <svg
-              class="w-6 h-6 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-            >
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </button>
         </div>
         <div class="my-4">
           <h1 class="text-2xl text-blue-100">
@@ -40,7 +29,7 @@
           <div class="relative mt-4 flex">
             <div>
               <a
-                href="#"
+                href="./eudentity.html"
                 class="bg-yellow-500 text-yellow-900 font-bold mt-2 px-4 py-2 rounded-full text-xs uppercase"
                 >Bestellen</a
               >
@@ -58,40 +47,100 @@
       </div>
     </header>
 
-    <main class="mt-16 w-full flex flex-col items-center">
+    <!-- MAIN CONTENT -->
+    <main class="mt-16 w-full flex flex-col items-center mb-10">
       <div class="max-width-4xl mx-4">
+        <!-- SECTION ONE -->
         <h2 class="pb-1 font-bold text-xl text-blue-700 border-b">
           Was ist eudentity?
         </h2>
 
-        <p class="text-sm mt-4 text-gray-600">
+        <p class="text-sm mt-4 mb-4 text-gray-600">
           Das Lernspiel eudentity wurde dazu entwickelt, Schülerinnen und
           Schülern aus ganz Europa Wissen zu vermitteln. Durch eine spielerische
           Entdeckung jener Fakten, die unser Europa so unglaublich wertvoll
           machen, ist es spannend und informativ zugleich.
         </p>
 
+        <!-- SECTION TWO: CARDS -->
         <h2 class="pb-1 font-bold text-xl text-blue-700 border-b">
           Vorteile
         </h2>
-
-        <div class="flex flex-col sm:flex-row">
-          <div>
-            <div class="bg-white">
-              <div class="">
-                <img src="./assets/illustrations/fun.svg" />
+        <!-- CARDS WRAPPER ROW -->
+        <div class="flex flex-col sm:flex-row sm:-mx-2">
+          <!-- CARD ONE -->
+          <div class="mt-4 sm:w-1/3">
+            <div
+              class="bg-white h-full p-8 border-b-4 border-yellow-500 rounded-lg flex flex-col items-center sm:mx-2 sm:p-4 md:p-8"
+            >
+              <div class="bg-white text-blue-700 w-48">
+                <img class="h-48 w-48" src="./assets/illustrations/fun.svg" />
               </div>
-              <div class="">Lernspaß</div>
-              <div class="">
-                Durch den kompetitiven Spielspaß wird gelernt statt gebüffelt.
+              <div class="mt-4 font-bold">Spaß haben</div>
+              <div class="text-center mt-2 text-gray-600 text-sm">
+                Durch den kompetitiven Spielspaß wird unterhaltsam gelernt statt
+                trocken gebüffelt.
+              </div>
+            </div>
+          </div>
+          <!-- CARD TWO -->
+          <div class="mt-4 sm:w-1/3">
+            <div
+              class="bg-white h-full p-8 border-b-4 border-yellow-500 rounded-lg flex flex-col items-center sm:mx-2 sm:p-4 md:p-8"
+            >
+              <div class="bg-white text-blue-700 w-48">
+                <img class="h-48 w-48" src="./assets/illustrations/team.svg" />
+              </div>
+              <div class="mt-4 font-bold">Zusammen lernen</div>
+              <div class="text-center mt-2 text-gray-600 text-sm">
+                Gemeinsam lernen hat schon immer mehr Spaß gemacht als bloß
+                alleine Bücher zu wälzen.
+              </div>
+            </div>
+          </div>
+          <!-- CARD THREE -->
+          <div class="mt-4 sm:w-1/3">
+            <div
+              class="bg-white h-full p-8 border-b-4 border-yellow-500 rounded-lg flex flex-col items-center sm:mx-2 sm:p-4 md:p-8"
+            >
+              <div class="bg-white text-blue-700 w-48">
+                <img
+                  class="h-48 w-48"
+                  src="./assets/illustrations/worldwide.svg"
+                />
+              </div>
+              <div class="mt-4 font-bold">Europa kennen lernen</div>
+              <div class="text-center mt-2 text-gray-600 text-sm">
+                Europa und die EU haben so viel zu bieten! Mit eudentity kannst
+                du all das kennen lernen!
               </div>
             </div>
           </div>
         </div>
+        <!-- BOTTOM BUTTON -->
+        <div class="flex flex-col items-center md:-mx-2">
+          <a
+            href="./eudentity.html"
+            class="bg-blue-700 text-md text-blue-100 mt-4 rounded-lg py-2 px-4 w-full md:w-1/3 md:mx-2 text-center"
+          >
+            Jetzt bestellen!
+          </a>
+        </div>
       </div>
     </main>
-    <footer>
-      <p>Copyright © 2020 Explore Europe e.V.</p>
+
+    <footer class="bg-gray-700 w-full text-center p-6">
+      <p class="text-xs text-gray-500 font-light">
+        Copyright © 2020 Explore Europe e.V.
+      </p>
+      <p>
+        <a
+          class="text-xs text-gray-500 font-light underline"
+          href="./imprint.html"
+        >
+          Impressum & Datenschutz
+        </a>
+      </p>
     </footer>
   </body>
 </html>
