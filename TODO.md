@@ -16,6 +16,10 @@ Right now, our site doesn't really need a dropdown menu, as it's really small an
 
 Right now, imprint.html is ugly. It doesn't need to be the prettiest thing ever, since it's just a legal requirement, but why don't make it look at leat somewhat appealing?
 
+### Checkbox for Email
+
+People have to confirm that their data gets sent to us
+
 ### Success Page
 
 Right now, feedback for our form submission is given by Netlify's default success message.
