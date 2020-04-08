@@ -10,7 +10,7 @@ We have to implement the company's logo into the circular div on /index.html. Mi
 
 ### Burger & Dropdown
 
-Right now, our site doesn't really need a dropdown menu, as it's really small and just a landing page to sell a product. However, it may be expanded in a while, so it's good to already have the dropdown menu ready to roll.
+Right now, our site doesn't really need a dropdown menu, as it's really small and just a landing page to sell a product. However, it may be expanded in a while, so it's good to already have the dropdown menu ready to roll. :)
 
 ### Imprint Styling
 
