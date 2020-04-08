@@ -15,7 +15,3 @@ Right now, our site doesn't really need a dropdown menu, as it's really small an
 ### Imprint Styling
 
 Right now, imprint.html is ugly. It doesn't need to be the prettiest thing ever, since it's just a legal requirement, but why don't make it look at leat somewhat appealing?
-
-### Legal Data
-
-There's some data missing for our imprint. Need to add it asap in order to keep everything smooth & legal.

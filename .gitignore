@@ -1,0 +1,3 @@
+# Files that won't be uploaded to github
+# Mac files
+.DS_Store
